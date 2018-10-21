@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.java.AlgoTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2018-10-21T20:26:02" hostname="shubhamvvyas" time="0.006">
+  <properties/>
+  <testcase name="testSingleElement" classname="test.java.AlgoTest" time="0.002"/>
+  <testcase name="testEmptyArray" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="testMerge" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="testQuick" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="testHeap" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="testSelection" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="testNodeCoverage" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="testInsertion" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="testEdgeCoverage" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="testConditionCoverage" classname="test.java.AlgoTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
