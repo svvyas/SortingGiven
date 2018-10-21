@@ -16,7 +16,8 @@ public class AlgoTest {
 	public void test() {
 		fail("Not yet implemented");
 	}*/
-
+	
+	//Test case for an empty array
 	@Test
 	public void testEmptyArray() {
 		Item[] arr = {};
@@ -25,6 +26,7 @@ public class AlgoTest {
 		assertEquals(len, arr.length);
 	}
 
+	// Single element array
 	@Test
 	public void testSingleElement() {
 		Item i1 = new Item(1);
@@ -34,6 +36,7 @@ public class AlgoTest {
 		assertEquals(key,arr[0].key);
 	}
 
+	//Node coverage test case
 	@Test
 	public void testNodeCoverage() {
 		int[] iarr = {4,1,5,8};
@@ -52,12 +55,14 @@ public class AlgoTest {
 		assertEquals(isarr[3], arr[3].key);
 	}
 
+	//When the array is Null
 	@Test(expected = NullPointerException.class)
 	public void testEdgeCoverage() {
 		Item[] arr = null;
 		SortAlgos.bubbleSort(arr);
 	}
 
+	// Condition coverage
 	@Test
 	public void testConditionCoverage() {
 		int[] iarr = {5,3,7,1,2,4};
@@ -77,6 +82,7 @@ public class AlgoTest {
 		assertEquals(isarr[4], arr[4].key);
 		assertEquals(isarr[5], arr[5].key);
 	}
+	//Selection Sort
 	@Test
 	public void testSelection() {
 		int[] iarr = {9,4,2,1,7};
@@ -96,7 +102,8 @@ public class AlgoTest {
 		assertEquals(isarr[3], arr[3].key);
 		assertEquals(isarr[4], arr[4].key);
 	}
-
+	
+	//Test Insertion sort
 	@Test
 	public void testInsertion() {
 		int[] iarr = {3,6,1,8,4};
@@ -115,6 +122,8 @@ public class AlgoTest {
 		assertEquals(isarr[3], arr[3].key);
 		assertEquals(isarr[4], arr[4].key);
 	}
+	
+	//Test Merge sort
 	@Test
 	public void testMerge() {
 		int[] iarr = {2,5,3,1,10};
@@ -133,6 +142,8 @@ public class AlgoTest {
 		assertEquals(isarr[3], arr[3].key);
 		assertEquals(isarr[4], arr[4].key);
 	}
+	
+	//Test Quick sort
 	@Test
 	public void testQuick() {
 		int[] iarr = {-3,-5,0,10,99,-34};
@@ -153,6 +164,7 @@ public class AlgoTest {
 		assertEquals(isarr[5], arr[5].key);
 	}
 
+	//Test heap sort
 	@Test
 	public void testHeap() {
 		int[] iarr = {-4, -33, 0, -55, -21, -9, -65};
